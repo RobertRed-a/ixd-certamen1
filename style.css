@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400;700&display=swap');
+
+
+
+body {background-color:#ecdbd6 ;}
+
+:root {
+    --bs-body-font-family: 'Andada Pro', serif;
+    --bs-body-font-size: 1.0rem;
+    --bs-body-font-weight: 400;
+}
+
+
+
+h1{color: whitesmoke;font-size:72px ;},
+h2 {fill: whitesmoke;
+text-decoration-color: whitesmoke;
+color: whitesmoke;}
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 500;
+}
+* {
+    transition: all ease 0.9s;
+}
+.carousel{
+  interval: 2000
+}
+
+
+
+#fondo-con-imagen {
+    height: 80vh;
+    background-image: url("img/curico-2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
